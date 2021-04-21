@@ -1,0 +1,194 @@
+{
+	"id": "622cd25e-1c93-44b2-820e-b99ae0a9e318",
+	"name": "Homework_Postman",
+	"timestamp": "2021-03-17T20:44:57.555Z",
+	"collection_id": "957597e3-4e1c-4d63-9041-1ca0db836334",
+	"folder_id": 0,
+	"environment_id": "d6997816-40c1-4dd1-8333-563927bd9038",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "f08ec887-5c35-430c-aa3f-0ab596b7360a",
+			"name": "object_info_1",
+			"url": "http://116.203.27.46:5002/object_info_1?age=31&weight=53&name=Yuliya",
+			"time": 91,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				91
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f4538091-d954-45b9-883c-7f2b5544bf72",
+			"name": "object_info_2",
+			"url": "http://116.203.27.46:5002/object_info_2?age=31&salary=50000&name=Yuliya",
+			"time": 84,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				84
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e4beec42-8350-457f-9168-863e72e74271",
+			"name": "object_info_3",
+			"url": "http://116.203.27.46:5002/object_info_3?age=32&salary=65000&name=Catherina",
+			"time": 83,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				83
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "011391b8-6778-4b36-a00c-b698b700d487",
+			"name": "object_info_4",
+			"url": "http://116.203.27.46:5002/object_info_4?age=29&name=Maxim&salary=55000",
+			"time": 82,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				82
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c5a35099-e9a1-43c8-a74b-eb9b6a43fd3f",
+			"name": "user_info_1",
+			"url": "http://116.203.27.46:5002/user_info_1",
+			"time": 87,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				87
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5402927d-6242-47e4-811b-8736e1db9c8f",
+			"name": "user_info_2",
+			"url": "http://116.203.27.46:5002/user_info_2",
+			"time": 84,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				84
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "811de1cf-58d4-4f0f-9155-0bb669d18690",
+			"name": "user_info_3",
+			"url": "http://116.203.27.46:5002/user_info_3",
+			"time": 86,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				86
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f8db01cf-15b7-4133-accc-9320470dce43",
+			"name": "user_info_4",
+			"url": "http://116.203.27.46:5002/user_info_4",
+			"time": 81,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				81
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 678,
+	"collection": {
+		"requests": [
+			{
+				"id": "f08ec887-5c35-430c-aa3f-0ab596b7360a",
+				"method": "GET"
+			},
+			{
+				"id": "f4538091-d954-45b9-883c-7f2b5544bf72",
+				"method": "GET"
+			},
+			{
+				"id": "e4beec42-8350-457f-9168-863e72e74271",
+				"method": "GET"
+			},
+			{
+				"id": "011391b8-6778-4b36-a00c-b698b700d487",
+				"method": "GET"
+			},
+			{
+				"id": "c5a35099-e9a1-43c8-a74b-eb9b6a43fd3f",
+				"method": "POST"
+			},
+			{
+				"id": "5402927d-6242-47e4-811b-8736e1db9c8f",
+				"method": "POST"
+			},
+			{
+				"id": "811de1cf-58d4-4f0f-9155-0bb669d18690",
+				"method": "POST"
+			},
+			{
+				"id": "f8db01cf-15b7-4133-accc-9320470dce43",
+				"method": "POST"
+			}
+		]
+	}
+}
